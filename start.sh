@@ -6,5 +6,4 @@ exec odoo \
   --db_sslmode=require \
   -d "$DB_NAME" --no-database-list \
   --workers=0 --max-cron-threads=0 \
-  --proxy-mode \
-  --admin_passwd="$ADMIN_PASSWD"
+  --proxy-mode
